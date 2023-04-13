@@ -2,6 +2,12 @@
 @tailwind components;
 @tailwind utilities;
 
+@media (max-width: 640px) {
+  html {
+    font-size: 90%;
+  }
+}
+
 body {
   @apply bg-primary;
   font-family: 'Calibri', sans-serif;

@@ -5,7 +5,7 @@ import Contact from './sections/Contact';
 
 const App = () => {
   return (
-    <main className="mx-auto my-20 max-w-lg">
+    <main className="mx-4 sm:mx-auto my-20 max-w-lg">
       <section className="flex items-center justify-start gap-4">
         <figure>
           <img
