@@ -2,7 +2,7 @@ const About = () => {
   return (
     <section className="my-10">
       <h2>About</h2>
-      <p>
+      <p className="mx-6 sm:mx-0">
         Hi! I'm Talim. I'm a 2nd year computer science student in a polytechnic
         college. I'm also a front-end developer and I have no prior work
         experience.

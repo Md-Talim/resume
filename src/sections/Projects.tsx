@@ -8,7 +8,10 @@ const Projects = () => {
       {projects.map(
         ({ time, src, name, description, link, liveLink }, index) => {
           return (
-            <div key={index} className="mb-4 flex w-full">
+            <div
+              key={index}
+              className="mx-6 mb-4 flex w-full flex-col sm:mx-0 sm:flex-row"
+            >
               <p className="time w-[25%]">{time}</p>
               <div className="flex flex-col gap-2">
                 <p className="flex items-center gap-1 text-gray1">
