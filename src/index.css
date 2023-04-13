@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-primary;
+  font-family: 'Calibri', sans-serif;
+}
+
+h2 {
+  @apply text-lg;
+  @apply text-gray1;
+  @apply mb-2;
+}
+
+p {
+  @apply text-gray2;
+  @apply text-base;
+}
+
+.time {
+  @apply text-gray3;
+}
