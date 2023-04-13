@@ -1,6 +1,6 @@
 import { About, Education, Projects } from './sections';
 import { UnderlinedLink } from './components';
-import talim from './assets/talim.jpg';
+import { talim } from './assets';
 import Contact from './sections/Contact';
 
 const App = () => {

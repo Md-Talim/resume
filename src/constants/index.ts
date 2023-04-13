@@ -1,3 +1,4 @@
+import { sunnyside, snap } from '../assets';
 type Eduaction = {
   time: string;
   link: string;
@@ -23,7 +24,7 @@ export const projects: Projects = [
   {
     time: 'Jan 2023',
     name: 'Sunnyside agency landing page',
-    src: '/src/assets/sunnyside.jpg',
+    src: sunnyside,
     link: 'https://md-talim.github.io/intro-section-with-dropdown-navigation/',
     liveLink: 'https://md-talim.github.io/sunnyside-agency-landing-page',
     description: 'Challange by Frontend Mentor.',
@@ -31,7 +32,7 @@ export const projects: Projects = [
   {
     time: 'Feb 2023',
     name: 'Snap intro section',
-    src: '/src/assets/snap.jpg',
+    src: snap,
     link: 'https://github.com/Md-Talim/intro-section-with-dropdown-navigation',
     liveLink:
       'https://md-talim.github.io/intro-section-with-dropdown-navigation/',
