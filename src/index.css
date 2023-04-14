@@ -2,11 +2,11 @@
 @tailwind components;
 @tailwind utilities;
 
-/* @media (max-width: 640px) {
+@media (max-width: 640px) {
   html {
-    font-size: 90%;
+    font-size: 95%;
   }
-} */
+}
 
 body {
   @apply bg-gray1;
