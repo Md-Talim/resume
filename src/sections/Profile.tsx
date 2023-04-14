@@ -1,5 +1,5 @@
-import { UnderlinedLink } from "../components";
-import { talim } from "../assets";
+import { UnderlinedLink } from '../components';
+import { talim } from '../assets';
 
 const Profile = () => {
   return (
@@ -12,7 +12,9 @@ const Profile = () => {
         />
       </figure>
       <div>
-        <h1 className="text-xl text-gray1">Mohammad Talim</h1>
+        <h1 className="text-xl font-bold text-primary dark:text-gray1">
+          Mohammad Talim
+        </h1>
         <p>
           2nd Year CSE Student at{' '}
           <UnderlinedLink

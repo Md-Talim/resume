@@ -13,7 +13,7 @@ const Projects = () => {
               className="mx-6 mb-4 flex w-full flex-col sm:mx-0 sm:flex-row"
             >
               <p className="time w-[25%]">{time}</p>
-              <div className="flex flex-col gap-2">
+              <div className="flex flex-col gap-1">
                 <p className="flex items-center gap-1 text-gray1">
                   <UnderlinedLink
                     title={name}
@@ -22,7 +22,7 @@ const Projects = () => {
                   />{' '}
                   <Arrow />
                 </p>
-                <p>{description}</p>
+                <p className="mb-1">{description}</p>
                 <img
                   src={src}
                   alt="preview"

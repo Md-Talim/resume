@@ -9,21 +9,25 @@
 }
 
 body {
-  @apply bg-primary;
+  @apply bg-gray1;
+  @apply dark:bg-primary;
   font-family: 'Calibri', sans-serif;
 }
 
 h2 {
   @apply text-lg;
-  @apply text-gray1;
+  @apply text-primary;
+  @apply dark:text-gray1;
   @apply mb-2;
 }
 
 p {
-  @apply text-gray2;
+  @apply text-gray3;
+  @apply dark:text-gray2;
   @apply text-base;
 }
 
 .time {
-  @apply text-gray3;
+  @apply text-gray2;
+  @apply dark:text-gray3;
 }
