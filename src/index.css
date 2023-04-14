@@ -4,7 +4,7 @@
 
 @media (max-width: 640px) {
   html {
-    font-size: 95%;
+    font-size: 92%;
   }
 }
 
@@ -12,6 +12,14 @@ body {
   @apply bg-gray1;
   @apply dark:bg-primary;
   font-family: 'Calibri', sans-serif;
+}
+
+input,
+textarea,
+button,
+select,
+a {
+  -webkit-tap-highlight-color: transparent;
 }
 
 h2 {
