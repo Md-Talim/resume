@@ -19,7 +19,7 @@ const App = () => {
   }, [isDark]);
 
   return (
-    <main className="mx-4 my-10 max-w-lg sm:mx-auto sm:my-20">
+    <main className="mx-6 my-10 max-w-lg sm:mx-auto sm:my-20">
       <Profile />
       <About />
       <Education />
