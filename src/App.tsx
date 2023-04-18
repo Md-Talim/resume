@@ -11,6 +11,12 @@ const App = () => {
 
   const toggleTheme = () => {
     html?.classList.toggle('dark');
+
+    if (html?.classList.contains('dark')) {
+      localStorage.setItem('color-theme', 'dark');
+    } else {
+      localStorage.setItem('color-theme', 'light');
+    }
     setIsDark((prevState) => !prevState);
   };
 
