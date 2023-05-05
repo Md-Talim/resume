@@ -1,4 +1,4 @@
-import { sunnyside, snap } from '../assets';
+import { sunnyside, snap, gameshub, searchx } from '../assets';
 type Eduaction = {
   time: string;
   link: string;
@@ -37,6 +37,22 @@ export const projects: Projects = [
     liveLink:
       'https://md-talim.github.io/intro-section-with-dropdown-navigation/',
     description: 'Challange by Frontend Mentor.',
+  },
+  {
+    time: 'April 2023',
+    name: 'Games Hub',
+    src: gameshub,
+    link: 'https://github.com/Md-Talim/game-hub',
+    liveLink: 'http://gameshub-rho.vercel.app/',
+    description: 'A Game Database powered with the rawg.io api.',
+  },
+  {
+    time: 'May 2023',
+    name: 'SearchX',
+    src: searchx,
+    link: 'https://github.com/Md-Talim/search-x',
+    liveLink: 'https://searchx-seven.vercel.app/',
+    description: 'A functional search engine enhanced by Google.',
   },
 ];
 
