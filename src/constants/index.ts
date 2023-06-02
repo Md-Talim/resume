@@ -72,8 +72,8 @@ export const education: Eduaction = [
 export const contacts: Contacts = [
   {
     name: 'Email',
-    username: 'mdtalim470@gmail.com',
-    link: 'mailto:mdtalim470@gmail.com',
+    username: 'mohd.talim.work@gmail.com',
+    link: 'mailto:mohd.talim.work@gmail.com',
   },
   {
     name: 'Github',
