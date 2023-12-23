@@ -12,7 +12,9 @@ I am a beginner front-end engineer with experience in React and TailwindCSS. I h
 
 ### Skills
 
+- Next.js
 - React
+- TypeScript
 - TailwindCSS
 - HTML
 - CSS
@@ -21,7 +23,7 @@ I am a beginner front-end engineer with experience in React and TailwindCSS. I h
 
 ### Tools and languages I use
 
-![My Skills](https://skillicons.dev/icons?i=js,ts,html,css,react,tailwind,vite,git,github,vscode&perline=5&)
+![My Skills](https://skillicons.dev/icons?i=next,js,ts,html,css,react,tailwind,vite,git,github,vscode&perline=5&)
 
 ### Contact
 
