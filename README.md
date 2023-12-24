@@ -27,5 +27,5 @@ I am a beginner front-end engineer with experience in React and TailwindCSS. I h
 
 ### Contact
 
-- Email: mdtalim470@gmail.com
+- Email: mohd.talim.work@gmail.com
 - LinkedIn: [linkedin.com/in/md-talim](https://www.linkedin.com/in/md-talim/)
